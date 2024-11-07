@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Violencia - Mapa Conceptual</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            overflow-x: hidden;
+            background-color: rgba(20, 20, 20, 0.9);
+            color: white;
+            text-align: center;
+        }
+        .mapa-conceptual {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+        }
+        .concepto {
+            background-color: rgba(30, 30, 30, 0.9);
+            border-radius: 10px;
+            margin: 20px;
+            padding: 20px;
+            width: 80%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Sombreado negro */
+        }
+        h1 {
+            color: #f0f8ff;
+            margin: 20px 0;
+            font-size: 2.5em;
+            
+            text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.7);
+        }
+        h2 {
+            color: #1E90FF;
+            margin: 10px 0;
+        }
+        p {
+            margin: 10px 0;
+        }
+        .imagen-container {
+            margin: 10px 0;
+            display: flex;
+            justify-content: center;
+        }
+        img {
+            width: 300px; /* Establece un ancho fijo para todas las imágenes */
+            height: 200px; /* Establece una altura fija para mantener el tamaño uniforme */
+            object-fit: cover; /* Asegura que las imágenes mantengan la proporción y se recorten adecuadamente */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Sombreado negro */
+            margin: 0 10px; /* Espaciado entre imágenes */
+        }
+        .tipos-violencia {
+            background-color: rgba(30, 30, 30, 0.9); /* Fondo para la sección de tipos de violencia */
+            border-radius: 10px;
+            padding: 20px;
+            width: 80%; /* Usa un ancho definido para el cuadro */
+            margin: 20px auto; /* Centrado y margen superior/inferior */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Sombreado negro */
+        }
+        .tipos-violencia h2 {
+            margin-bottom: 10px;
+        }
+        .tipos-violencia-content {
+            display: flex;
+            flex-wrap: nowrap; /* Asegura que las tarjetas se alineen horizontalmente */
+            justify-content: center;
+            overflow-x: auto; /* Permite desplazamiento horizontal si es necesario */
+        }
+        .tipo {
+            background-color: rgba(50, 50, 50, 0.9);
+            border-radius: 10px;
+            margin: 10px;
+            padding: 15px;
+            width: 200px; /* Ancho más pequeño para encajar más tarjetas */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Sombreado negro */
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.85);
+            color: white;
+            padding: 15px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+            font-family: 'Impact', sans-serif;
+            font-size: 1.1em;
+            border-top: 5px solid #1E90FF;
+        }
+        footer p {
+            margin: 0;
+            font-style: italic;
+            color: #f0f8ff;
+            text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.5);
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: rgba(50, 50, 50, 0.9); /* Fondo del encabezado */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Sombreado negro */
+        }
+        .header h2 {
+            margin: 0;
+        }
+        .boton-atras {
+            background-color: #1E90FF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8); /* Sombreado negro */
+        }
+        .boton-atras:hover {
+            background-color: #0f7efc;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>Inicio</h2>
+        <button class="boton-atras" onclick="location.href='index.html'">Atrás</button>
+    </div>
+
+    <div class="mapa-conceptual">
+        <h1>LA VIOLENCIA</h1>
+        <div class="concepto">
+            <h2>¿Qué es la violencia?</h2>
+            <p>La violencia se refiere al uso intencional de la fuerza física o el poder, que puede causar daño, lesiones o privación
+                tanto si se manifiesta a traves de amenazas como acciones efectivas y que puede resultar en daño fisicos , psicologicos , desarrollo de trastornos 
+                o incluso la muerte.La violencia segun expertos en el tema se define como el uso internacional de la fuera fisisca , amenazaso coercion contra uno mismo, otra
+            persona o un grupo, con el objetivo de causar daño fisico,psicologico, emoconal o social.La violencia provoca muchas muertes todos los dias , particularmente entre hombres jovenes y ninos.
+        Ademas de este imdice de muertes , un alto numeros de hombre , mujeres , ninas y ninos sufren lesiones , discapacidad o problemas de salud como resultado de la violencia.
+    Si bien el concepto de la VIOLENCIA es claro , el modo en que se puede manifiestar varia segun cada cultura.Ademas , a medida que la humanidad evoluciona , es necesario volver a analizar las diferentes modalidades en las que se 
+manifiesta la violencia desde la etica , la moral o el derecho.</p>
+        </div>
+
+        <div class="imagen-container">
+            <div class="concepto">
+         
+                <img src="violencia_1.jpg" alt="Descripción de la imagen 1">
+            </div>
+            <div class="concepto">
+              
+                <img src="violencia_2.jpg" alt="Descripción de la imagen 2">
+            </div>
+        </div>
+
+        <div class="tipos-violencia">
+            <h2>LAS VIOLENCIAS MAS COMUNES </h2>
+            <div class="tipos-violencia-content">
+                <div class="tipo">
+                    <h3>Violencia física</h3>
+                    <p>Agresiones que causan daño corporal o lesiones a una persona , puede manifestarse a traves de golpes, empujones, patadas , entre otros.</p>
+                </div>
+                <div class="tipo">
+                    <h3>Violencia psicológica</h3>
+                    <p>Conductas que afectan el bienestar emocional o psicologicas para controlar ,manipularo dañar a una persona</p>
+                </div>
+                <div class="tipo">
+                    <h3>Violencia sexual</h3>
+                    <p>Actos sexuales no consentidos en el que una persona es forzada , coaccionada o incapaz de dar su consentimiento libremente.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>¡No a la violencia! La paz comienza con nosotros.</p>
+    </footer>
+</body>
+</html>

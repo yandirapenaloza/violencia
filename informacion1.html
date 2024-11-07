@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información</title>
+    <link rel="stylesheet" href="informacion.css">
+    <script>
+        function togglePanel(panelId) {
+            const panel = document.getElementById(panelId);
+            panel.style.display = panel.style.display === "block" ? "none" : "block";
+        }
+    </script>
+</head>
+<body>
+    <a href="index.html" class="boton-atras">Atrás</a>
+    <div class="titulo-info">Información</div>
+    <div class="container"> 
+        <h1>La violencia de género</h1>
+        <p>La violencia de género se refiere a cualquier acto de violencia basado en el género que resulta en, o tiene alta probabilidad de resultar en, daño físico, sexual o psicológico a las mujeres, así como amenazas de tales actos, coerción o privación arbitraria de libertad, ya sea que ocurra en la vida pública o privada. Este tipo de violencia es una manifestación de la desigualdad de poder entre hombres y mujeres y se fundamenta en normas culturales, sociales y económicas que perpetúan la discriminación y la violencia.
+    </p>
+        <img src="violencia_genero.jpg" alt="Violencia de Género">
+        
+        <h2>Diferentes tipos de violencia</h2>
+        <p>La violencia puede estar presente eb cualquier ambito ; sea en el domestico o en el publico , el lugar de trabajo , la calle , el transporte publico , el colegio , etc. Ante esto 
+            , todos tenemos la responsabilidad de romper el silencio y denunciar.Para ello es importante que aprendas a diferenciar loa distintos tipos de violencia que existen para poder identificar. </p>
+</div>
+        <button class="accordion" onclick="togglePanel('violenciaFisicaPanel')">Violencia Física</button>
+        <div class="panel" id="violenciaFisicaPanel">
+            <p>Son todas las agresiones que atentan contra el cuerpo de una persona, ya sea a traves de golpe , lanzamientos de objetos , encierro
+                ,sacudidas o estrujos , ocasionar daños fisicos.Las victimas no tiene por que pertenecer a un determinando colectivo , y tampoco se 
+                tiene por que tener en cuenta su sexo o condicion.Lo que caracteriza a la violencia fisica es el uso de la fuerza , no la condicion de la victima.
+                EJEMPLO:Golpear a un dependiente con el objetivo de robarle,causar daño fisico a otra persona para humillarla.
+            </p>
+        </div>
+        
+        <button class="accordion" onclick="togglePanel('violenciaPsicologicaPanel')">Violencia Psicológica</button>
+        <div class="panel" id="violenciaPsicologicaPanel">
+        <p>Hay violencia psicológica cuando se humilla o intenta degradar a una persona mediante insultos o palabras que provocan daño. El uso continuado de esta violencia le puede causar graves transtornos a la víctima, pudiendo necesitar apoyo psicológico. Este tipo de violencia también se caracteriza por su método, no por el tipo de víctima.
+            EJEMPLOS:
+
+    Decirle a alguien que no vale para nada , insultos continuados hacia una persona para que se sienta humillada
+        </p>           
+        </div>
+        
+        <button class="accordion" onclick="togglePanel('violenciaSexualPanel')">Violencia Sexual</button>
+        <div class="panel" id="violenciaSexualPanel">
+            <p>Se entiende por violencia sexual a la actividad sexual que se realiza sin consentimiento. La víctima de este tipo de violencia sufre, por lo tanto, un abuso sexual en donde se ha podido acompañar de fuerza física o algún otro tipo de intimidación. Dentro de la violencia sexual se encuentran el acoso y la agresión con fines sexuales.
+            </p>
+        </div>
+        
+        <button class="accordion" onclick="togglePanel('violenciaEconomicaPanel')">Violencia Económica</button>
+        <div class="panel" id="violenciaEconomicaPanel">
+            <p>Es toda acción u omisión del agresor que afecta la superviven-
+                cia económica de la víctima. Se manifiesta a través de limitaciones encaminadas a contro-
+                lar el ingreso de sus percepciones económicas, así como la percepción de un salario menor
+                por igual trabajo, dentro de un mismo centro laboral”.
+                La violencia económica limita la autonomía e independencia de la víctima; lo que en
+                muchas ocasiones es un factor para que continúen en la relación violenta; se refuerce la
+                dependencia con el agresor y aumenten sus sentimientos.EJEMPLOS:Control de gastos ingrsos , retencion de dinero para necesidades basicas.</p>
+        </div>
+        
+        <button class="accordion" onclick="togglePanel('violenciaPatrimonialPanel')">Violencia Patrimonial</button>
+        <div class="panel" id="violenciaPatrimonialPanel">
+            <p>Es cualquier acto u omisión que afecta la supervivencia de la
+                víctima. Se manifiesta en: la transformación, sustracción, destrucción, retención o dis-
+                tracción de objetos, documentos personales, bienes y valores, derechos patrimoniales o
+                recursos económicos destinados a satisfacer necesidades y puede abarcar los daños a los
+                bienes comunes o propios de la víctima”.
+                La violencia patrimonial, en la que se obliga a la persona a renunciar a sus derechos
+                sobre una propiedad y/o se les saca de su casa, es más frecuente en la tercera edad.
+                Los bienes materiales y los documentos personales permiten a las personas ejercer su
+                libertad y autonomía e inciden en su proyecto de vida. Cuando se les priva de todo esto,
+                se vuelven vulnerables.EJEMPLOS:Control de cuentas bancarias u finanzas , venta o disposicion de bienes sin permiso de la persona.</p>
+        </div>
+        
+        <button class="accordion" onclick="togglePanel('violenciaSocialPanel')">Violencia Social</button>
+        <div class="panel" id="violenciaSocialPanel">
+            <p>Se entiende por violencia social todo aquel acto con impacto social que atenta a la integridad física, psíquica o relacional de una persona o un colectivo, siendo dichos actos llevados a cabo por un sujeto o por la propia comunidad.
+
+                En algunos casos esta violencia es aplicada con el propósito de conseguir una mejora en las condiciones de vida o como forma de protesta por un trato que es considerado como vejatorio, como ocurre en algunos motines y revueltas. En otras ocasiones se pretende disminuir el poder de los demás con el fin de perjudicarles a ellos o a sus puntos de vista, o bien para aumentar la percepción de la propia autoridad.
+            
+                Pero en general, podemos determinar que el objetivo de la violencia social como tal es la obtención o mantenimiento de poder y estatus social. Sin embargo, en muchas ocasiones esta va vinculada a la violencia política, en la que se realizan actos violentos con el objetivo de lograr un poder político o la violencia económica, en la que el objetivo es la obtención de capital.</p>
+        </div>
+        
+        <button class="accordion" onclick="togglePanel('violenciaEstructuralPanel')">Violencia Estructural</button>
+        <div class="panel" id="violenciaEstructuralPanel">
+            <p>Traducción del inglés-La violencia estructural es una forma de violencia en la que alguna estructura social o institución social puede dañar a las personas impidiéndoles satisfacer sus necesidades o derechos básicos.Traducción del inglés-La violencia estructural es una forma de violencia en la que alguna estructura social o institución social puede dañar a las personas impidiéndoles satisfacer sus necesidades o derechos básicos.Traducción del inglés-La violencia estructural es una forma de violencia en la que alguna estructura social o institución social puede dañar a las personas impidiéndoles satisfacer sus necesidades o derechos básicos.se refiere a situaciones en las que se producen daños a necesidades humanas básicas como la supervivencia, la libertad, el bienestar o la identidad, en las que generalmente hay un grupo privilegiado y otro vulnerado, normalmente caracterizados en términos de clase, raza o género. Visibilizar esta violencia estructural, es crucial para comprender fenómenos de violencia directa que se dan cuando el grupo privilegiado busca reforzar su posición, o cuando el grupo vulnerado busca subvertirla.
+                EJEMPLOS:Desigualdad salarial y laboral , pobreza y exclusion social.
+            </p>
+        </div>
+        
+        <footer>
+            <p>EN LA VIOLENCIA DE GENERO NO HAY UNA SOLA VICTIMA..!!</p>
+        </footer>
+    </div>
+</body>
+</html>
